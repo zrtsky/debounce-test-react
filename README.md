@@ -15,8 +15,6 @@ Implement a `useDebounce` hook that:
 
 ```text
 debounce-test-react/
-├── public/
-│   └── vite.svg
 ├── src/
 │   ├── hooks/
 │   │   ├── index.ts              # Hook exports
