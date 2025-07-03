@@ -10,13 +10,16 @@ function App() {
   return (
     <div className="flex h-dvh w-full items-center justify-center">
       <div className="flex min-w-md flex-col items-center gap-6">
-        <h3 className="text-xl">State:</h3>
+        <h3 className="w-full text-left text-xl">State:</h3>
         <div className="w-full space-y-2 rounded-lg bg-gray-900 p-4 font-mono">
           <p>Current value - {value || 'NO'}</p>
           <p>Debounced value - {debouncedValue || 'NO'}</p>
           <p>Is Ready - {isReady ? 'YES' : 'NO'}</p>
         </div>
         <input
+          type="text"
+          placeholder="Type something..."
+          name="input"
           className={clsx([
             [
               'w-full',
