@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-black font-sans text-base leading-normal text-gray-200;
+}
